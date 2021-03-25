@@ -9,3 +9,5 @@ aws iam get-credential-report --output text --query Content | base64 -d >> dev-m
 ## Install EPEL
 sudo amazon-linux-extras install epel -y
 
+## Install Code Deploy
+wget https://aws-codedeploy-us-west-2.s3.us-west-2.amazonaws.com/latest/install
